@@ -68,6 +68,7 @@ and Few-shot with CoT.
 </div>
 
 ### 2. Model Interpretability
+The model's justification was evaluated by GPT-4 and Human subjects across four dimensions: **Misleadingness (M)**, **Informativeness (I)**, **Soundness (S)**, and **Readability (R)**. A 5-point Likert scale was used, where 1 indicates the lowest quality and 5 the highest for Informativeness, Soundness, and Readability, but the scale is reversed for Misleadingness.
 <div align="center">
 <img src="images/model_interpretability.png" alt="Model Interpretability" width="500" />
 </div>
