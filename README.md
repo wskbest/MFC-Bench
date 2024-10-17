@@ -1,4 +1,4 @@
-# <img src="images/logo.png" alt="logo" width="25"/>MFC-Bench
+# <img src="images/logo.png" alt="logo" width="30"/> MFC-Bench
 [![arXiv](https://img.shields.io/badge/arXiv-2406.11288-red)](https://arxiv.org/abs/2406.11288)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 ![architecture](images/architecture.png)
@@ -51,17 +51,26 @@ prompt methods for the MFC-Bench: Zero-shot, Zero-shot with CoT , Few-shot,
 and Few-shot with CoT.
 ![prompt-types](images/prompt_type.png)
 ## :flashlight: Experiment Results
-### Zero-Shot
-![Main Result](images/main_result.png)
+### 1. Zero-Shot
+<center>
+<img src="images/main_result.png" alt="Main Result" width="800" />
+</center>
+### 2. Model Interpretability
+<center>
+<img src="images/model_interpretability.png" alt="Model Interpretability" width="500" />
+</center>
 
-### Model Interpretability
-![Model Interpretability](images/model_interpretability.png)
+### 3. Zero-Shot with CoT 
+<center>
+<img src="images/zero_shot_cot.png" alt="Zero-shot CoT" width="500" />
+</center>
 
-### Zero-Shot with CoT 
-![Zero-shot CoT](images/zero_shot_cot.png)
 
-### Few-Shot
-![Few-shot](images/few_shot.png)
+### 4. Few-Shot
+<center>
+<img src="images/few_shot.png" alt="Few-shot" width="800" />
+</center>
+
 
 
 ## Citation
