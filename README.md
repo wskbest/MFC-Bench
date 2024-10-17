@@ -1,9 +1,9 @@
-# MFC-Bench
-[https://arxiv.org/abs/2406.11288](https://arxiv.org/abs/2406.11288)
-
+# <img src="images/logo.png" alt="logo" width="25"/>MFC-Bench
+[![arXiv](https://img.shields.io/badge/arXiv-2406.11288-red)](https://arxiv.org/abs/2406.11288)
+[![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 ![architecture](images/architecture.png)
 
-## Introduction
+## :bookmark_tabs: Introduction
 We introduce the MFC-Bench, a comprehensive Multimodal FactChecking testbed designed to evaluate LVLM in terms of identifying factual inconsistencies and
 counterfactual scenarios.
 MFC-Bench encompasses a wide range of visual and textual queries,
@@ -17,10 +17,10 @@ false connection between the image and text that may be both true.(Dataset:[ooc-
 is the multimodal counterpart to classifying the veracity of textual claims given the visual evidence, by
 leveraging the inherent knowledge embedded in LVLMs.(Dataset:[veracity-mfc-bench](https://huggingface.co/datasets/Anonymous-2024/veracity-mfc-bench))
 
-## Datasets Construction
+## :dart: Datasets Construction
 ![Datasets](images/datasets.png)
 
-## Methodology
+## :mag: Methodology
 To provide an exhaustive perspective on the current state of LVLMs within the context of multimodal
 fact-checking, we conducted evaluations on 18 representative accessible LVLMs. For the open-source and accessible LVLMs, we adopt the representative models like 
 [Emu2](https://github.com/baaivision/Emu),
@@ -50,7 +50,7 @@ To explore the effect of different prompt strategies like Chain-of-Thought
 prompt methods for the MFC-Bench: Zero-shot, Zero-shot with CoT , Few-shot,
 and Few-shot with CoT.
 ![prompt-types](images/prompt_type.png)
-## Experiment Results
+## :flashlight: Experiment Results
 ### Zero-Shot
 ![Main Result](images/main_result.png)
 
@@ -62,7 +62,12 @@ and Few-shot with CoT.
 
 ### Few-Shot
 ![Few-shot](images/few_shot.png)
-## BibTeX
+
+
+## Citation
+If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil: :)
+
+```BibTeX
 @misc{wang2024mfcbenchbenchmarkingmultimodalfactchecking,
       title={MFC-Bench: Benchmarking Multimodal Fact-Checking with Large Vision-Language Models}, 
       author={Shengkang Wang and Hongzhan Lin and Ziyang Luo and Zhen Ye and Guang Chen and Jing Ma},
@@ -72,6 +77,8 @@ and Few-shot with CoT.
       primaryClass={cs.CL},
       url={https://arxiv.org/abs/2406.11288}, 
 }
+```
+
 
 
 
