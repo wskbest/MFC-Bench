@@ -18,30 +18,60 @@ is the multimodal counterpart to classifying the veracity of textual claims give
 leveraging the inherent knowledge embedded in LVLMs.(Dataset:[veracity-mfc-bench](https://huggingface.co/datasets/Anonymous-2024/veracity-mfc-bench))
 
 ## Datasets Construction
-![Datasets](/images/datasets.png)
+![Datasets](images/datasets.png)
 
 ## Methodology
 To provide an exhaustive perspective on the current state of LVLMs within the context of multimodal
-fact-checking, we conducted evaluations on 12 representative accessible LVLMs. For the open-source and accessible LVLMs, we adopt the representative models like [LLaVANeXT](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md#llava-v16) , [InstructBLIP](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip) , [Qwen-VL](https://github.com/QwenLM/Qwen-VL) , [Yi-VL](https://github.com/01-ai/Yi), [InternVL](https://github.com/OpenGVLab/InternVL) , [CogVLM](https://github.com/THUDM/CogVLM) , [MiniCPM-V-2 ](https://github.com/OpenBMB/MiniCPM-V), [mPLUG-Owl](https://github.com/X-PLUG/mPLUG-Owl) , [Emu2](https://github.com/baaivision/Emu) and [MiniGPT-v2](https://minigpt-v2.github.io/) . As two of the most powerful closed-source LVLMs, both [GPT-4V](https://openai.com/index/gpt-4v-system-card/) and [Claude3-Haiku](https://www.anthropic.com/news/claude-3-haiku) are
-also included in our testing scope.
+fact-checking, we conducted evaluations on 18 representative accessible LVLMs. For the open-source and accessible LVLMs, we adopt the representative models like 
+[Emu2](https://github.com/baaivision/Emu),
+[InternVL](https://github.com/OpenGVLab/InternVL), 
+[CogVLM](https://github.com/THUDM/CogVLM), 
+[LLaVA-NeXT](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md#llava-v16), 
+[InstructBLIP](https://github.com/salesforce/LAVIS/tree/main/projects/instructblip), 
+[Pixtral](https://mistral.ai/news/pixtral-12b/),
+[MiniCPM-V-2.6](https://huggingface.co/openbmb/MiniCPM-V-2_6),
+[LLaVA-OneVision](https://github.com/LLaVA-VL/LLaVA-NeXT/blob/main/docs/LLaVA_OneVision.md),
+[Molmo](https://huggingface.co/allenai/Molmo-7B-D-0924),
+[Qwen-VL](https://github.com/QwenLM/Qwen-VL),
+[Qwen2-VL](https://github.com/QwenLM/Qwen2-VL),
+[Yi-VL](https://github.com/01-ai/Yi) and 
+[xGen-MM](https://huggingface.co/Salesforce/xgen-mm-phi3-mini-instruct-r-v1).
+
+As five of the most powerful closed-source LVLMs,
+[GPT-4o](https://openai.com/index/hello-gpt-4o/), 
+[GPT-4V](https://openai.com/index/gpt-4v-system-card/),
+[Claude3.5-Sonnet](https://www.anthropic.com/news/claude-3-5-sonnet),
+[Claude3-Haiku](https://www.anthropic.com/news/claude-3-haiku) and
+[Gemini-1.5-Pro](https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/). 
+are also included in our testing scope.
 
 To explore the effect of different prompt strategies like Chain-of-Thought
 (CoT)  or In-Context Learning (ICL) prompting, we utilized the four following
 prompt methods for the MFC-Bench: Zero-shot, Zero-shot with CoT , Few-shot,
 and Few-shot with CoT.
-![prompt-types](/images/prompt-types.png)
+![prompt-types](images/prompt_type.png)
 ## Experiment Results
-![Main Result](/images/main_result.png)
-![Zero-shot CoT](/images/zero_shot_cot.png)
+### Zero-Shot
+![Main Result](images/main_result.png)
 
+### Model Interpretability
+![Model Interpretability](images/model_interpretability.png)
 
+### Zero-Shot with CoT 
+![Zero-shot CoT](images/zero_shot_cot.png)
+
+### Few-Shot
+![Few-shot](images/few_shot.png)
 ## BibTeX
 @misc{wang2024mfcbenchbenchmarkingmultimodalfactchecking,
       title={MFC-Bench: Benchmarking Multimodal Fact-Checking with Large Vision-Language Models}, 
       author={Shengkang Wang and Hongzhan Lin and Ziyang Luo and Zhen Ye and Guang Chen and Jing Ma},
-      year={2024}  
+      year={2024},
+      eprint={2406.11288},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2406.11288}, 
 }
-
 
 
 
