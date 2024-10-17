@@ -2,9 +2,9 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2406.11288-red)](https://arxiv.org/abs/2406.11288)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202-blue)](https://www.apache.org/licenses/LICENSE-2.0)
 
-<center>
-<img src="images/architecture.png" alt="architecture" width="800" />
-</center>
+<div align="center">
+<img src="images/architecture.png" alt="architecture" width="750" />
+</div>
 
 
 ## :bookmark_tabs: Introduction
@@ -22,9 +22,9 @@ is the multimodal counterpart to classifying the veracity of textual claims give
 leveraging the inherent knowledge embedded in LVLMs.(Dataset:[veracity-mfc-bench](https://huggingface.co/datasets/Anonymous-2024/veracity-mfc-bench))
 
 ## :dart: Datasets Construction
-<center>
-<img src="images/datasets.png" alt="Datasets" width="800" />
-</center>
+<div align="center">
+<img src="images/datasets.png" alt="Datasets" width="750" />
+</div>
 
 
 ## :mag: Methodology
@@ -57,31 +57,31 @@ To explore the effect of different prompt strategies like Chain-of-Thought
 prompt methods for the MFC-Bench: Zero-shot, Zero-shot with CoT , Few-shot,
 and Few-shot with CoT.
 
-<center>
-<img src="images/prompt_type.png" alt="prompt-types" width="800" />
-</center>
+<div align="center">
+<img src="images/prompt_type.png" alt="prompt-types" width="750" />
+</div>
 
 ## :flashlight: Experiment Results
 ### 1. Zero-Shot
-<center>
-<img src="images/main_result.png" alt="Main Result" width="800" />
-</center>
+<div align="center">
+<img src="images/main_result.png" alt="Main Result" width="750" />
+</div>
 
 ### 2. Model Interpretability
-<center>
+<div align="center">
 <img src="images/model_interpretability.png" alt="Model Interpretability" width="500" />
-</center>
+</div>
 
 ### 3. Zero-Shot with CoT 
-<center>
+<div align="center">
 <img src="images/zero_shot_cot.png" alt="Zero-shot CoT" width="500" />
-</center>
+</div>
 
 
 ### 4. Few-Shot
-<center>
-<img src="images/few_shot.png" alt="Few-shot" width="800" />
-</center>
+<div align="center">
+<img src="images/few_shot.png" alt="Few-shot" width="750" />
+</div>
 
 
 
