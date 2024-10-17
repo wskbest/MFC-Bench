@@ -1,7 +1,11 @@
 # <img src="images/logo.png" alt="logo" width="30"/> MFC-Bench
 [![arXiv](https://img.shields.io/badge/arXiv-2406.11288-red)](https://arxiv.org/abs/2406.11288)
 [![License: Apache 2.0](https://img.shields.io/badge/license-Apache%202-blue)](https://www.apache.org/licenses/LICENSE-2.0)
-![architecture](images/architecture.png)
+
+<center>
+<img src="images/architecture.png" alt="architecture" width="800" />
+</center>
+
 
 ## :bookmark_tabs: Introduction
 We introduce the MFC-Bench, a comprehensive Multimodal FactChecking testbed designed to evaluate LVLM in terms of identifying factual inconsistencies and
@@ -18,7 +22,10 @@ is the multimodal counterpart to classifying the veracity of textual claims give
 leveraging the inherent knowledge embedded in LVLMs.(Dataset:[veracity-mfc-bench](https://huggingface.co/datasets/Anonymous-2024/veracity-mfc-bench))
 
 ## :dart: Datasets Construction
-![Datasets](images/datasets.png)
+<center>
+<img src="images/datasets.png" alt="Datasets" width="800" />
+</center>
+
 
 ## :mag: Methodology
 To provide an exhaustive perspective on the current state of LVLMs within the context of multimodal
@@ -49,12 +56,17 @@ To explore the effect of different prompt strategies like Chain-of-Thought
 (CoT)  or In-Context Learning (ICL) prompting, we utilized the four following
 prompt methods for the MFC-Bench: Zero-shot, Zero-shot with CoT , Few-shot,
 and Few-shot with CoT.
-![prompt-types](images/prompt_type.png)
+
+<center>
+<img src="images/prompt_type.png" alt="prompt-types" width="800" />
+</center>
+
 ## :flashlight: Experiment Results
 ### 1. Zero-Shot
 <center>
 <img src="images/main_result.png" alt="Main Result" width="800" />
 </center>
+
 ### 2. Model Interpretability
 <center>
 <img src="images/model_interpretability.png" alt="Model Interpretability" width="500" />
